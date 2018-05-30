@@ -1,0 +1,49 @@
+Test 01 - Adding Players (1.0 mark)
+You successfully added three players to the game (1.0 mark)
+
+Test 02 - Removing a Player (1.0 mark)
+Initial players:
+Player: id= 1, name= The Gambler, bet amount= 0, selected coin face= null, game result = null, total points= 1000
+Player: id= 2, name= The Hustler, bet amount= 0, selected coin face= null, game result = null, total points= 700
+Player: id= 3, name= The Casual, bet amount= 0, selected coin face= null, game result = null, total points= 500
+Updated players:
+Player: id= 1, name= The Gambler, bet amount= 0, selected coin face= null, game result = null, total points= 1000
+Player: id= 3, name= The Casual, bet amount= 0, selected coin face= null, game result = null, total points= 500
+You successfully removed a player from the game (1.0 mark)
+
+Test 03 - Handling an Invalid Bet (1.0 mark)
+You successfully detected an invalid bet for insufficent credit scenario (1 mark)
+
+Test 04 - Handling a Valid Bet (0.5 marks)
+The Casual successfully made a bet (0.5 marks)
+
+Test 05 - Test flip() Precondition (0.5 marks)
+Succesfully detected illegal input with IllegalArgumentException (0.5 marks)
+
+Test 06 - Test First Deal for The Gambler (1.5 marks)
+CALLBACK: coinFlipOutcome() called for test #6
+CALLBACK: coinFlipOutcome() called for test #6
+CALLBACK: gameResult() called for test #6, game outcome =LOST
+CALLBACK: gameResult() called for test #6, game outcome =WON
+Player: id= 1, name= The Gambler, bet amount= 100, selected coin face= heads, game result = LOST, total points= 900
+You completed a successful deal with The Gambler's point balances updated correctly (1.5 marks)
+
+Test 07 - Test Second Deal for the Casual (1.5 marks)
+CALLBACK: coinFlipOutcome() called for test #7
+CALLBACK: coinFlipOutcome() called for test #7
+CALLBACK: gameResult() called for test #7, game outcome =DREW
+CALLBACK: gameResult() called for test #7, game outcome =DREW
+Player: id= 3, name= The Casual, bet amount= 100, selected coin face= tails, game result = DREW, total points= 600
+You completed a successful deal with The Casual's point balances updated correctly (1.5 marks)
+
+Test 08 - Test Outcome Callback Calls (1.5 marks)
+CALLBACK: coinFlipOutcome() called for test #8
+CALLBACK: coinFlipOutcome() called for test #8
+CALLBACK: gameResult() called for test #8, game outcome =LOST
+CALLBACK: gameResult() called for test #8, game outcome =WON
+Flip outcomes 2
+Game outcomes 2
+Flip outcomes called once per coin
+Game result called once per player
+
+The test harness score is: 8.5/ 8.5 marks. NOTE: 1.5 additional marks are allocated based on callback console outputs.

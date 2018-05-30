@@ -1,0 +1,144 @@
+--- SAMPLE 1 ---
+Sep 02, 2017 6:44:13 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 1, name= The Gambler, bet amount= 100, selected coin face= heads, game result = null, total points= 700
+Sep 02, 2017 6:44:13 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 2, name= The Casual, bet amount= 50, selected coin face= tails, game result = null, total points= 500
+
+Sep 02, 2017 6:44:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 6:44:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails,
+Sep 02, 2017 6:44:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 1 is tails
+Sep 02, 2017 6:44:15 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 6:44:15 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 6:44:15 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 6:44:16 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 6:44:16 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 2 is heads
+Sep 02, 2017 6:44:16 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 6:44:17 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 6:44:17 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 3 is heads
+Sep 02, 2017 6:44:18 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 6:44:18 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 4 is tails
+Sep 02, 2017 6:44:18 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl gameResult
+INFO: 
+ Player: The Gambler has DREW
+Sep 02, 2017 6:44:18 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl gameResult
+INFO: 
+ Player: The Casual has DREW
+Sep 02, 2017 6:44:18 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 1, name= The Gambler, bet amount= 100, selected coin face= heads, game result = DREW, total points= 700
+Sep 02, 2017 6:44:18 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 2, name= The Casual, bet amount= 50, selected coin face= tails, game result = DREW, total points= 500
+
+
+--- SAMPLE 2 ---
+Sep 02, 2017 8:33:00 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 1, name= The Gambler, bet amount= 100, selected coin face= heads, game result = null, total points= 700
+Sep 02, 2017 8:33:00 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 2, name= The Casual, bet amount= 50, selected coin face= tails, game result = null, total points= 500
+
+Sep 02, 2017 8:33:01 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:01 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:02 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:02 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:02 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:02 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:03 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:03 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:03 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:03 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 1 is heads
+Sep 02, 2017 8:33:04 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:04 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 2 is tails
+Sep 02, 2017 8:33:05 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:05 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:06 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:06 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:06 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:06 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 3 is heads
+Sep 02, 2017 8:33:07 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:07 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:08 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:08 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:08 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:08 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:09 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:09 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:09 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:09 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 4 is tails
+Sep 02, 2017 8:33:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:11 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:11 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:11 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:12 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:12 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:12 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:13 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:13 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:13 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 5 is heads
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: tails, 
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlip
+INFO: heads, 
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl coinFlipOutcome
+INFO: Final coin face for coin 6 is heads
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl gameResult
+INFO: 
+ Player: The Gambler has WON
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl gameResult
+INFO: 
+ Player: The Casual has LOST
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 1, name= The Gambler, bet amount= 100, selected coin face= heads, game result = WON, total points= 800
+Sep 02, 2017 8:33:14 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 2, name= The Casual, bet amount= 50, selected coin face= tails, game result = LOST, total points= 450
